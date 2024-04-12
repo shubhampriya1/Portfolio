@@ -1,12 +1,8 @@
-import "./WorkCardstyle.css"
-import React from 'react'
+import "./WorkCardstyle.css";
+import React from "react";
 
 const WorkCard = () => {
-  return (
-    <div>
-      WorkCard.........
-    </div>
-  )
-}
+  return <div>WorkCard.........</div>;
+};
 
-export default WorkCard
+export default WorkCard;
