@@ -9,6 +9,7 @@ const Image2 = () => {
         <img
           className="into-img"
           src="https://img.freepik.com/free-photo/3d-render-technology-background-with-code-male-head_1048-5960.jpg?size=626&ext=jpg"
+          alt="into-img"
         />
       </div>
       <div className="content">

@@ -5,9 +5,10 @@ import {
   FaPhone,
   FaMailBulk,
   FaFacebook,
-  FaTwitter,
   FaLinkedin,
+  FaInstagram,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,10 +16,12 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left">
           <div className="location">
-            <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-            <div>
-              <p>XYZ Colony ,Road no-X,Patna... </p>
-              <p>Bihar</p>
+            <div className="home">
+              <FaHome
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              <p>Bihar, India</p>
             </div>
             <div className="phone">
               <h4>
@@ -26,7 +29,12 @@ const Footer = () => {
                   size={20}
                   style={{ color: "#fff", marginRight: "2rem" }}
                 />
-                9431433015
+                <a
+                  href="tel:+919431433015"
+                  style={{ color: "#fff", textDecoration: "none" }}
+                >
+                  +91 9431433015
+                </a>
               </h4>
             </div>
             <div className="Email">
@@ -35,33 +43,47 @@ const Footer = () => {
                   size={20}
                   style={{ color: "#fff", marginRight: "2rem" }}
                 />
-                Shubhampriya513@gmail.com
+                <a
+                  href="mailto:shubhampriya513@gmail.com"
+                  style={{ color: "#fff", textDecoration: "none" }}
+                >
+                  shubhampriya513@gmail.com
+                </a>
               </h4>
             </div>
           </div>
         </div>
         <div className="right">
-          {" "}
-          <h4>About the Company</h4>
+          <h4>About me</h4>
           <p>
-            A quick glimpse back into the website can trigger stronger
-            connections of the users with that website. An overview of the most
-            important pages/information, in the form of a shortlist of links,
-            can go a long way in further engaging the users.
+            I am a full stack web developer. I have experience in developing web
+            applications using React, Node, Express, and MongoDB.
           </p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaTwitter
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <Link
+              to="https://www.facebook.com/profile.php?id=100089199673938&mibextid=ZbWKwL"
+              target="_blank"
+            >
+              <FaFacebook
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </Link>
+            <Link to="https://www.instagram.com/shubhampriya_" target="_blank">
+              <FaInstagram
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </Link>
+            <Link
+              to="https://in.linkedin.com/in/shubham-priya-2112a8262"
+              target="_blank"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </Link>
           </div>
         </div>
       </div>

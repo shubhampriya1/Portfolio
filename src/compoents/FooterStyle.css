@@ -37,6 +37,14 @@ h4 {
 p {
   font-size: 1.2rem;
 }
+.phone {
+  margin-top: 1rem;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 @media screen and (max-width: 640px) {
   .footer-container {
     grid-template-columns: 1fr;

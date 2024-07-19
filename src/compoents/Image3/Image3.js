@@ -1,5 +1,5 @@
 import React from "react";
-import "./Image3Style.css"
+import "./Image3Style.css";
 import { Link } from "react-router-dom";
 
 const Image2 = () => {
