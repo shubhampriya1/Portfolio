@@ -1,5 +1,4 @@
 import "./FooterStyle.css";
-import React from "react";
 import {
   FaHome,
   FaPhone,

@@ -1,5 +1,4 @@
 import "../FromPage/FormStyle.css";
-import React from "react";
 
 const Form3 = () => {
   return (
@@ -20,7 +19,7 @@ const Form3 = () => {
         aria-describedby="emailHelp"
       />
       <label>Message</label>
-      <textarea row="8" placeholder="Type your meassage here" />
+      <textarea placeholder="Type your meassage here" />
       <button type="submit" className="btn ">
         Submit
       </button>

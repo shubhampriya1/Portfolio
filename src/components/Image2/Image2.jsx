@@ -1,5 +1,4 @@
 import "./Image2Style.css";
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Image2 = () => {

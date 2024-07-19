@@ -1,4 +1,3 @@
-import React from "react";
 import Form3 from "../FromPage/Form3";
 const Image2 = () => {
   return (
