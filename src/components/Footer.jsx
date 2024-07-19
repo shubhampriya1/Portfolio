@@ -14,41 +14,37 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container">
         <div className="left">
-          <div className="location">
-            <div className="home">
+          <div className="location flex flex-col gap-2">
+            <div className="flex items-center justify-start">
               <FaHome
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
               <p>Bihar, India</p>
             </div>
-            <div className="phone">
-              <h4>
-                <FaPhone
-                  size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
-                />
-                <a
-                  href="tel:+919431433015"
-                  style={{ color: "#fff", textDecoration: "none" }}
-                >
-                  +91 9431433015
-                </a>
-              </h4>
+            <div className="flex items-center justify-start">
+              <FaPhone
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              <a
+                href="tel:+919431433015"
+                style={{ color: "#fff", textDecoration: "none" }}
+              >
+                +91 9431433015
+              </a>
             </div>
-            <div className="Email">
-              <h4>
-                <FaMailBulk
-                  size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
-                />
-                <a
-                  href="mailto:shubhampriya513@gmail.com"
-                  style={{ color: "#fff", textDecoration: "none" }}
-                >
-                  shubhampriya513@gmail.com
-                </a>
-              </h4>
+            <div className="flex items-center justify-start">
+              <FaMailBulk
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              <a
+                href="mailto:shubhampriya513@gmail.com"
+                style={{ color: "#fff", textDecoration: "none" }}
+              >
+                shubhampriya513@gmail.com
+              </a>
             </div>
           </div>
         </div>
@@ -58,7 +54,7 @@ const Footer = () => {
             I am a full stack web developer. I have experience in developing web
             applications using React, Node, Express, and MongoDB.
           </p>
-          <div className="social">
+          <div className="flex gap-3 my-3">
             <Link
               to="https://www.facebook.com/profile.php?id=100089199673938&mibextid=ZbWKwL"
               target="_blank"
