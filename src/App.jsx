@@ -4,7 +4,6 @@ import Project from "./routes/Project";
 import Contact from "./routes/Contact";
 import About from "./routes/About";
 import { Route, Routes } from "react-router-dom";
-import Component from "./components/HomeV2";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
         <Route path="/Project" element={<Project />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/About" element={<About />} />
-        <Route path="/new-home" element={<Component />} />
       </Routes>
     </>
   );
