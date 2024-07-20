@@ -1,12 +1,11 @@
 import { CarFrontIcon } from "lucide-react";
-import { Card } from "../ui/card";
+import { Card, CardContent, CardHeader } from "../ui/card";
 import "./Image2Style.css";
-import { Link } from "react-router-dom";
 
 const Image2 = () => {
   return (
     <div className="Shubham">
-      <Card/>
+      <Card />
       <div className="mask">
         <img
           className="into-img"
@@ -14,8 +13,9 @@ const Image2 = () => {
           alt="into-img"
         />
       </div>
+      <Card />
       <div className="content">
-        <p>MY WORK IS HERE!!!</p>
+        {/* <p>MY WORK IS HERE!!!</p>
         <h1>Projects</h1>
 
         <div className="coloum1">
@@ -43,9 +43,84 @@ const Image2 = () => {
             className="btn"
           >
             Project 4
-          </Link>
+          </Link> */}
+
+        <div className="flex">
+          <Card className="h-[400px]">
+            <CardHeader>
+              <img
+                src="https://utfs.io/f/8f09024d-8f2e-47a2-b637-16aa1c016dff-ca7koy.jpg"
+                width="550"
+                height="310"
+                alt="Project 2"
+                className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+              />
+            </CardHeader>
+            <CardContent className="space-y-2">
+              <h3 className="text-xl font-bold">Project 2</h3>
+              <p className="text-muted-foreground">
+                A sleek and intuitive mobile app design for a fitness tracking
+                platform.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="h-[400px]">
+            <CardHeader>
+              <img
+                src="https://utfs.io/f/8f09024d-8f2e-47a2-b637-16aa1c016dff-ca7koy.jpg"
+                width="550"
+                height="310"
+                alt="Project 2"
+                className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+              />
+            </CardHeader>
+            <CardContent className="space-y-2">
+              <h3 className="text-xl font-bold">Project 2</h3>
+              <p className="text-muted-foreground">
+                A sleek and intuitive mobile app design for a fitness tracking
+                platform.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="h-[400px]">
+            <CardHeader>
+              <img
+                src="https://utfs.io/f/8f09024d-8f2e-47a2-b637-16aa1c016dff-ca7koy.jpg"
+                width="550"
+                height="310"
+                alt="Project 2"
+                className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+              />
+            </CardHeader>
+            <CardContent className="space-y-2">
+              <h3 className="text-xl font-bold">Project 2</h3>
+              <p className="text-muted-foreground">
+                A sleek and intuitive mobile app design for a fitness tracking
+                platform.
+              </p>
+            </CardContent>
+          </Card>
+          <Card className="h-[400px]">
+            <CardHeader>
+              <img
+                src="https://utfs.io/f/8f09024d-8f2e-47a2-b637-16aa1c016dff-ca7koy.jpg"
+                width="550"
+                height="310"
+                alt="Project 2"
+                className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+              />
+            </CardHeader>
+            <CardContent className="space-y-2">
+              <h3 className="text-xl font-bold">Project 2</h3>
+              <p className="text-muted-foreground">
+                A sleek and intuitive mobile app design for a fitness tracking
+                platform.
+              </p>
+            </CardContent>
+          </Card>
         </div>
-       <card/>
       </div>
     </div>
   );

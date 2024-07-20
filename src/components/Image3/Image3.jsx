@@ -15,7 +15,7 @@ const Image2 = () => {
         <h1>Who Am i?</h1>
         <h4> Hello,I am Shubham priya ,</h4>
         <h4> B-Tech 3rd year Student</h4>
-        <p>
+        <p className="md:">
           Coming up with your statement So, how do you write these magical words
           that will intrigue people enough to stay on your website a little
           longer? There’s no easy answer to this question I’m afraid. But I’ll
