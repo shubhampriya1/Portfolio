@@ -1,12 +1,23 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.content p {
+ font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 .mask {
-  width: 100%;
+  width: 100%; 
   height: 100vh;
   position: relative;
 }
 .into-img {
   width: 100%;
   height: 100%;
-  background-color: rgb(17, 6, 6);
+  background-color: rgb(190, 168, 168);
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -40,17 +51,24 @@
 .Shubham .content p {
   font-size: 1.4rem;
   font-weight: 200;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
-.content .btn-light {
+.content .btn {
   margin: 1rem 0.2rem;
-  border-radius: 0cqh;
+  border-radius: 8px;
+  background-color: rgb(229, 255, 127);
+ 
+ 
 }
 @media screen and(max-width:640px) {
   .Shubham.content h1 {
     font-size: 3rem;
   }
   .Shubham.content p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    line-height: 1; /* Increases space between lines */
+    margin: 0 1rem; /* Adds horizontal margin for better readability */
+    color: brown;
+    padding: 0 1rem; /* Adds horizontal padding for better readability */
   }
 }

@@ -1,9 +1,12 @@
+import { CarFrontIcon } from "lucide-react";
+import { Card } from "../ui/card";
 import "./Image2Style.css";
 import { Link } from "react-router-dom";
 
 const Image2 = () => {
   return (
     <div className="Shubham">
+      <Card/>
       <div className="mask">
         <img
           className="into-img"
@@ -27,7 +30,7 @@ const Image2 = () => {
             Project 2
           </Link>
         </div>
-
+         
         <div className="coloum2">
           <Link
             to="https://github.com/shubhampriya1/MyntraClone"
@@ -42,6 +45,7 @@ const Image2 = () => {
             Project 4
           </Link>
         </div>
+       <card/>
       </div>
     </div>
   );

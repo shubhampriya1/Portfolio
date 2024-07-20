@@ -38,17 +38,19 @@
   padding: 0.6rem 0 1.5rem;
 }
 .Shubham .content p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 200;
-  text-transform: uppercase;
+ 
+  
 }
 .content .btn-light {
   margin: 1rem 0.2rem;
   border-radius: 0cqh;
 }
-.content .btn-dark {
+.content .btn-light {
   margin: 1rem 0.2rem;
-  border-radius: 0cqh;
+  border-radius: 6px;
+  background-color: rgb(245, 155, 71);
 }
 @media screen and(max-width:640px) {
   .Shubham.content h1 {

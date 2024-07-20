@@ -14,14 +14,15 @@ const Images = () => {
         <p>HI ,I M SHUBHAM PRIYA</p>
         <h1>React Developer</h1>
 
-        <div>
+        /* <div>
           <Link to="/Project" className="btn">
             Project
           </Link>
           <Link to="/Contact" className="btn-light">
             Contact
           </Link>
-        </div>
+        </div> */
+       
       </div>
     </div>
   );
