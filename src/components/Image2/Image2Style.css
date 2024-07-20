@@ -8,6 +8,7 @@
   margin-bottom: 16px;
   margin-top: 16px;
   background-color: rgb(227, 217, 23);
+  border-radius: 10px;
 }
 .coloum2 {
   display: flex;
