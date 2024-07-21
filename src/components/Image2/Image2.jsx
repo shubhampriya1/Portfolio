@@ -42,6 +42,15 @@ const Image2 = () => {
                     https://github.com/shubhampriya1/Medium
                   </p1>
                 </div>
+                <div className="flex">
+                  <h1 className="font-medium text-gray-800 ">Discription:</h1>
+                  <p className="font-light text-gray-800 text-sm mt-1 ml-1">
+                    This is full-stack web application that enables users to
+                    register, log in, create, read, update, and delete blog
+                    posts. The platform also supports providing an interactive
+                    user experience.
+                  </p>
+                </div>
               </CardContent>
             </Card>
 
@@ -70,8 +79,17 @@ const Image2 = () => {
                 <div className="flex ">
                   <h3 className="text-xl font-semibold">github Link:</h3>
                   <p1 className="ml-3 mt-1">
-                    https://github.com/shubhampriya1/Medium
+                    https://github.com/shubhampriya1/chat-app
                   </p1>
+                </div>
+                <div className="flex">
+                  <h1 className="font-medium text-gray-800 ">Discription:</h1>
+                  <p className="font-light text-gray-800 text-sm mt-1 ml-1">
+                    This project is a chat application developed using the MERN
+                    stack (MongoDB, Express.js, React.js, Node.js). It provides
+                    a platform for users to engage in real-time communication
+                    through text messages.
+                  </p>
                 </div>
               </CardContent>
             </Card>
@@ -101,8 +119,14 @@ const Image2 = () => {
                 <div className="flex ">
                   <h3 className="text-xl font-semibold">github Link:</h3>
                   <p1 className="ml-3 mt-1">
-                    https://github.com/shubhampriya1/Medium
+                    https://github.com/shubhampriya1/MyntraClone
                   </p1>
+                </div>
+                <div className="flex">
+                  <h1 className="font-medium text-gray-800 ">Discription:</h1>
+                  <p className="font-light text-gray-800 text-sm mt-1 ml-1">
+                    This project is a React Basic Html,CSS,JavaScript Myntra-clone App.
+                  </p>
                 </div>
               </CardContent>
             </Card>
@@ -132,8 +156,15 @@ const Image2 = () => {
                 <div className="flex ">
                   <h3 className="text-xl font-semibold">github Link:</h3>
                   <p1 className="ml-3 mt-1">
-                    https://github.com/shubhampriya1/chat-app
+                    https://github.com/shubhampriya1/Portfolio
                   </p1>
+                </div>
+                <div className="flex">
+                  <h1 className="font-medium text-gray-800 ">Discription:</h1>
+                  <p className="font-light text-gray-800 text-sm mt-1 ml-1">
+                    This project is a React Basic Project,Which tells about
+                    Myself like Education,Qualification,Degree and Many more.
+                  </p>
                 </div>
               </CardContent>
             </Card>

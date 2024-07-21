@@ -15,17 +15,17 @@ const Image2 = () => {
         <h1>Introduction</h1>
 
         <p className="sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
-          Hello,I am Shubham priya a 4th year B-tech Student,passionate MERN Stack Developer with a
-          strong background in web development. I specialize in building
-          dynamic, user-friendly applications using MongoDB, Express.js, React,
-          and Node.js. When I'm not coding, I enjoy exploring the latest tech
-          trends, contributing to open-source projects, and participating in
-          hackathons. Let's connect and discuss how we can collaborate to bring
-          innovative ideas to life!
+          Hello,I am Shubham priya a 4th year B-tech Student,passionate MERN
+          Stack Developer with a strong background in web development. I
+          specialize in building dynamic, user-friendly applications using
+          MongoDB, Express.js, React, and Node.js. When I'm not coding, I enjoy
+          exploring the latest tech trends, contributing to open-source
+          projects, and participating in hackathons. Let's connect and discuss
+          how we can collaborate to bring innovative ideas to life!
         </p>
         <div className="pt-6  ">
           <Link
-            to="https://drive.google.com/file/d/1hcIzqg6iuBzKYoVjMD4qM_iN1wcUJyRc/view?usp=drive_link"
+            to="https://drive.google.com/file/d/1hjWNF-B9MJxAAV2fxGlQarXBEwR-1LRb/view?usp=sharing"
             className="btn"
           >
             Resume
