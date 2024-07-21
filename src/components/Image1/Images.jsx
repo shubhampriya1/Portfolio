@@ -16,10 +16,10 @@ const Images = () => {
 
         <div>
           <Link to="/Project" className="btn">
-            Project
+            Projects
           </Link>
-          <Link to="/Contact" className="btn-light">
-            Contact
+          <Link to="/Skills" className="btn-light">
+            Skills
           </Link>
         </div>
       </div>

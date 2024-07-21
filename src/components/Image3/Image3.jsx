@@ -12,17 +12,16 @@ const Image2 = () => {
         />
       </div>
       <div className="content">
-        <h1>Who Am i?</h1>
-        <h4> Hello,I am Shubham priya ,</h4>
-        <h4> B-Tech 3rd year Student</h4>
-        <p className="md:">
-          Coming up with your statement So, how do you write these magical words
-          that will intrigue people enough to stay on your website a little
-          longer? There’s no easy answer to this question I’m afraid. But I’ll
-          do my best to guide you on how to put together a killer intro
-          statement! Let’s start with what information this statement needs to
-          convey. There are three things you need to let your visitors know in
-          and how you say it.{" "}
+        <h1>Introduction</h1>
+
+        <p className="sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+          Hello,I am Shubham priya a 4th year B-tech Student,passionate MERN Stack Developer with a
+          strong background in web development. I specialize in building
+          dynamic, user-friendly applications using MongoDB, Express.js, React,
+          and Node.js. When I'm not coding, I enjoy exploring the latest tech
+          trends, contributing to open-source projects, and participating in
+          hackathons. Let's connect and discuss how we can collaborate to bring
+          innovative ideas to life!
         </p>
         <div className="pt-6  ">
           <Link
