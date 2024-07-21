@@ -146,7 +146,7 @@ const Image2 = () => {
                   <h3 className="text-xl font-bold">Protfolio</h3>
                   <p className="text-muted-foreground ">
                     <Link
-                      to="https://shubham-priya.netlify.app/new-home"
+                      to="https://shubham-priya.netlify.app/home"
                       className="btn"
                     >
                       open
