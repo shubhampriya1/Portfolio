@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { cn } from "@/lib/utils";
 import axios from "axios";
+import { useState } from "react";
 import { AiOutlineSend } from "react-icons/ai";
 import { GiRobotGolem } from "react-icons/gi";
-import { cn } from "@/lib/utils";
+
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [userInput, setUserInput] = useState("");
@@ -15,7 +16,7 @@ const Chatbot = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/api/chat", {
+      const response = await axios.post(`${import.meta.env.VITE_PUBLIC_API_URL}/api/chat`, {
         text: userInput,
       });
       setChatHistory([...chatHistory, { sender: "user", message: userInput }]);
